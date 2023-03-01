@@ -5,11 +5,11 @@ public class PrimeiroPrograma {
     public static void main(String[] args) {
         Gato gato = new Gato("Pituco","Branco",2);
 
-
-
         System.out.println( " Nome: " + gato.getNome() + '\'' + "Cor: "+gato.getCor() + '\''+ " Idade: "+ gato.getIdade());
 
-        Livro livro = new Livro("Codigo Limpo",278);
+        Livro livro = new Livro("Guardiões de Memoria",289);
+        livro.setTitulo("Gardiões De memoria");
+        livro.setPaginas(289);
         System.out.println(livro);
     }
 }
@@ -39,9 +39,10 @@ public void setPaginas(int paginas) {
 
     public String toString() {
         return "Livro{" +
-                "Titulo: " + titulo + '\'' +
-                ", Paginas: " + paginas +
+                "Titulo: " + getTitulo() + '\'' +
+                ", Paginas: " + getPaginas() +
                 "}";
     }
 
 }
+
