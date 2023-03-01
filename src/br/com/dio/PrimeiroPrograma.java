@@ -5,7 +5,7 @@ public class PrimeiroPrograma {
     public static void main(String[] args) {
         Gato gato = new Gato("Pituco","Branco",2);
 
-        System.out.println( " Nome: " + gato.getNome() + '\'' + "Cor: "+gato.getCor() + '\''+ " Idade: "+ gato.getIdade());
+        System.out.println( " Nome: " + gato.getNome() + '\'' + "Cor: " + gato.getCor() + '\'' + " Idade: " + gato.getIdade());
 
         Livro livro = new Livro("Guardiões de Memoria",289);
         livro.setTitulo("Gardiões De memoria");
