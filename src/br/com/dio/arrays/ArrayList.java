@@ -16,7 +16,8 @@ public class ArrayList {
             nome = scanner.next();
             if(nome.equals("0")){
                 System.out.println("Seu nome não pode estar vazio");
-                break;
+                System.out.println("Digite seu nome:");
+                nome = scanner.next();
             }
             System.out.println("Digite sua idade:");
             idade = scanner.nextInt();
